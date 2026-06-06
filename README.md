@@ -244,15 +244,15 @@ npm run dev
 npm run dev:admin
 ```
 
-前端服务默认运行在 `http://localhost:5173`
+前端服务默认运行在 `http://localhost:7070`（用户端）和 `http://localhost:7071`（管理端）
 
 ### 5.4 访问应用
 
 | 端 | 地址 | 说明 |
 |----|------|------|
 | 后端 API | http://localhost:8080/ClothesWeb | RESTful API |
-| 用户端 | http://localhost:5173 | 普通用户前台 |
-| 管理端 | http://localhost:5174 | 管理员后台 |
+| 用户端 | http://localhost:7070 | 普通用户前台 |
+| 管理端 | http://localhost:7071 | 管理员后台 |
 
 ---
 
