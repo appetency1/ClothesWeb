@@ -1,0 +1,83 @@
+:root {
+  /* Brand Colors */
+  --color-primary: #C49A6C;
+  --color-primary-dark: #8B7355;
+  --color-primary-light: #F5EDE4;
+  --color-accent: #D4A373;
+
+  /* Semantic Colors */
+  --color-success: #67A58D;
+  --color-warning: #E8B87A;
+  --color-danger: #D4837A;
+  --color-info: #8EA9C1;
+
+  /* Order Status Colors */
+  --status-unpaid: #E8B87A;
+  --status-unshipped: #8EA9C1;
+  --status-shipped: #A7B8D3;
+  --status-received: #67A58D;
+
+  /* Neutral Colors */
+  --color-text: #2C2C2C;
+  --color-text-secondary: #6B6B6B;
+  --color-text-placeholder: #A8A8A8;
+  --color-border: #E8E2DA;
+  --color-divider: #F0EBE5;
+  --color-bg: #FAF8F5;
+  --color-card: #FFFFFF;
+
+  /* Typography */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'PingFang SC',
+                 'Microsoft YaHei', sans-serif;
+
+  /* Font Sizes */
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 30px;
+  --text-4xl: 36px;
+
+  /* Font Weights */
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /* Line Heights */
+  --leading-tight: 1.2;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.8;
+
+  /* Spacing */
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+  --spacing-10: 40px;
+  --spacing-12: 48px;
+  --spacing-16: 64px;
+
+  /* Border Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(44, 44, 44, 0.06);
+  --shadow-md: 0 4px 12px rgba(44, 44, 44, 0.08);
+  --shadow-lg: 0 8px 24px rgba(44, 44, 44, 0.10);
+  --shadow-xl: 0 12px 40px rgba(44, 44, 44, 0.14);
+
+  /* Layout */
+  --nav-height: 64px;
+  --content-max-width: 1200px;
+  --sidebar-width: 220px;
+}
